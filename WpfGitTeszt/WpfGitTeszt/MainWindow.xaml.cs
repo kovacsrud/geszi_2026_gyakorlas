@@ -25,5 +25,10 @@ namespace WpfGitTeszt
         {
             textblockSzoveg.Text = "Github gyakorlás";
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            textblockSzoveg.Text = textboxSzoveg.Text;
+        }
     }
 }
