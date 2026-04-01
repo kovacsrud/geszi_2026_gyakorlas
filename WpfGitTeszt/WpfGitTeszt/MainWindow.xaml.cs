@@ -20,5 +20,10 @@ namespace WpfGitTeszt
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            textblockSzoveg.Text = "Github gyakorlás";
+        }
     }
 }
