@@ -17,5 +17,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
+        <Button x:Name="button1" Content="Gomb1" Grid.Row="2" Width="200" Height="30" FontSize="20" />
+
     </Grid>
 </Window>
